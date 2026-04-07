@@ -15,7 +15,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        branch: [main, "1.0", "2.0", beta2.1]
+        branch: [main, "1.0", "2.0", 2.1]
 
     steps:
       - name: Checkout
